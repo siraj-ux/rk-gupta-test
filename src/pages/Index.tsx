@@ -6,6 +6,7 @@ import { ActionStepsSection } from '@/components/sections/ActionStepsSection';
 import { BonusesSection } from '@/components/sections/BonusesSection';
 import { WhoIsThisForSection } from '@/components/sections/WhoIsThisForSection';
 import { TestimonialsSection } from '@/components/sections/TestimonialsSection';
+import { PastAttendeesSection } from '@/components/sections/PastAttendeesSection';
 import { MentorSection } from '@/components/sections/MentorSection';
 import { FAQSection } from '@/components/sections/FAQSection';
 import { FinalCTASection } from '@/components/sections/FinalCTASection';
@@ -35,6 +36,7 @@ useFacebookPixel()
       <LearningPhilosophySection/>
       <WhatYoullLearnSection />
       <WorkshopLearningSection />
+      <PastAttendeesSection />
       <CelebsBeliefSection/>
       <MentorSection />
       <FAQSection />
