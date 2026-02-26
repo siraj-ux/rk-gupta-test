@@ -29,12 +29,12 @@ export const WhatYoullLearnSection = () => {
         {/* HEADER */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-science font-bold mb-6">
-            Is 2-ghante mein yeh 3 cheezein clearly samjh aayengi:
+            Is 2 Ghante Mein Yeh 3 Cheezein Clearly Samjh Aayengi:
           </h2>
 
           <p className="text-lg text-white/85">
             Is masterclass mein topics ko <span className="font-semibold text-[#00a8e8]">step-by-step</span>{' '}
-            explain kiya jaayega — taaki flow samajh aaye aur clarity build ho.
+            explain kiya jaayega, taaki flow samajh aaye aur clarity build ho.
           </p>
         </div>
 
@@ -90,7 +90,7 @@ export const WhatYoullLearnSection = () => {
           {/* New Reassurance Text */}
           <p className="text-base md:text-lg text-white/80 italic mb-6 max-w-2xl mx-auto leading-relaxed">
             ₹9 ek cup chai se bhi kam hai. Agar session aapke kaam ka na lage, aapko kuch nahi khona. <br className="hidden md:block" /> 
-            Agar kaam aaya — toh clarity mil gayi.
+            Agar kaam aaya, toh clarity mil gayi.
           </p>
 
           <button

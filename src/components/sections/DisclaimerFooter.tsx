@@ -67,7 +67,7 @@ export const DisclaimerFooter = () => {
 
           {/* Updated SEBI COMPLIANCE: Moved to bottom and made very small */}
           <p className="text-[10px] leading-tight text-[#00171f]/60 pt-2 border-t border-black/5 max-w-3xl mx-auto">
-            <span className="font-bold uppercase">SEBI Compliance:</span> This is a pure educational program focused on technology concepts — not investment advisory. Educational workshops of this nature do not fall under SEBI registration requirements, the same way a finance book or a college lecture does not require SEBI registration.
+          <span className="font-bold uppercase">SEBI Compliance:</span> This is a pure educational program focused on technology concepts, not investment advisory. Educational workshops of this nature do not fall under SEBI registration requirements, the same way a finance book or a college lecture does not require SEBI registration.
           </p>
         </div>
 

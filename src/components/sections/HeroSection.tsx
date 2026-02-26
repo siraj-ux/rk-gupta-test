@@ -165,12 +165,12 @@ export const HeroSection = () => {
           {/* 1. HEADLINES */}
           <div className="order-1 lg:col-start-1 lg:row-start-1 text-left space-y-4">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-              Crypto Ko Lekar Jo Confusion Hai — <br />
+              Crypto Ko Lekar Jo Confusion Hai, <br />
               <span className="text-[#facc15]">2 Ghante Mein Clarity Milegi</span>
             </h1>
 
             <p className="text-[#00a8e8] text-xl md:text-2xl block mt-4 font-semibold tracking-wide">
-              Hindi mein, step-by-step, bina hype ke.
+              Hindi Mein, Step By Step, Bina Hype Ke.
             </p>
 
             <p className="text-base md:text-lg text-white/90">
@@ -203,7 +203,7 @@ export const HeroSection = () => {
           <div className="order-3 lg:col-start-2 lg:row-start-1 lg:row-span-3 sticky top-10 w-full max-w-md mx-auto lg:mx-0 lg:ml-auto">
             <div className="bg-white rounded-2xl shadow-2xl p-6 md:p-8 text-[#00171f]" id="register">
               <h3 className="text-2xl font-bold text-center mb-1">
-                Register for the Live Masterclass @ only ₹9/-
+                Register for the Live Masterclass
               </h3>
               <p className="text-sm text-center mb-4 animate-pulse font-semibold text-red-600 flex items-center justify-center gap-2">
                 <Clock className="h-4 w-4" />
@@ -258,19 +258,30 @@ export const HeroSection = () => {
                   </span>
                 </label>
 
-                {/* ADDED REASSURANCE TEXT */}
-                <p className="text-[11px] md:text-xs text-gray-500 text-center leading-relaxed italic px-2">
-                  ₹9 ek cup chai se bhi kam hai. Agar session aapke kaam ka na lage, aapko kuch nahi khona. Agar kaam aaya — toh clarity mil gayi.
+                <p className="text-[11px] md:text-xs text-gray-500 text-center italic px-2">
+                  ₹9 ek cup chai se bhi kam hai. Clarity ke liye itna toh banta hai.
                 </p>
 
+                {/* UPDATED TWO-LINE BUTTON */}
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className={`w-full font-bold py-4 rounded-xl text-lg transition shadow-lg
+                  className={`w-full font-bold py-4 rounded-xl transition shadow-lg
                     ${isSubmitting ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#007ea7] hover:bg-[#00a8e8] text-white transform hover:-translate-y-1'}
                   `}
                 >
-                  {isSubmitting ? 'Processing...' : addEbook ? 'Pay ₹99/- & Reserve My Seat' : 'Pay ₹9/- & Reserve My Seat'}
+                  {isSubmitting ? (
+                    'Processing...'
+                  ) : (
+                    <div className="flex flex-col items-center justify-center leading-tight">
+                      <span className="text-lg md:text-xl">
+                        Pay {addEbook ? '₹99' : '₹9'}/-
+                      </span>
+                      <span className="text-sm font-normal opacity-90">
+                        & Reserve My Seat Now
+                      </span>
+                    </div>
+                  )}
                 </button>
               </form>
 

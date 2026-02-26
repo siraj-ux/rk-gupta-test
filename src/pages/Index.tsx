@@ -33,11 +33,11 @@ useFacebookPixel()
       <div ref={heroRef}>
         <HeroSection />
       </div>
+      <CelebsBeliefSection/>
       <LearningPhilosophySection/>
       <WhatYoullLearnSection />
       <WorkshopLearningSection />
       <PastAttendeesSection />
-      <CelebsBeliefSection/>
       <MentorSection />
       <FAQSection />
       <FinalCTASection onCTAClick={scrollToHero} />
